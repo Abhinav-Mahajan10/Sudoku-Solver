@@ -1,3 +1,4 @@
 # Sudoku-Solver
-Take an image of an unsolved sudoku on your phone, send it to my python flask server, process the image, use a CNN model to predict the numbers and blank spaces, then show it on the laptop screen to the user to correct incorrect incorrect entries(if any) and solve the sudoku and return it.
-@Zense, Everything is working but image is unable to be sent to flask server because Android API > 29 is resulting in a bug where image is denied from being opened by Android device, using BitmapFactory.decodefile(pathname). As soon as I am able to fix it, I shall upload all my code(Saturday 4th September at maximum?) Sorry for the inconvenience. Hopefully you consider my project, I have spent a lot of time on it.
+Take an image of an unsolved sudoku on your phone, send it to my python flask server, process the image, or just upload the path name of the picture in your laptop, use a CNN model to predict the numbers and blank spaces, then show it on the laptop screen to the user to correct incorrect incorrect entries(if any) and solve the sudoku and return it.
+Detailed documentation given in ProjectReport.pdf
+Please check it!
